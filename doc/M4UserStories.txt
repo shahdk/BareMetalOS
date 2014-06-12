@@ -1,0 +1,41 @@
+Team 26 - Rain Dartt, Dharmin Shah, and Rob Wagner
+
+Milestone 4 User Stories:
+
+1.	The user can type the command "delete filename" to the shell to
+	delete files off the disk. This requires implementing writeSector
+	and deleteFile functions.
+
+	Estimated Time: 2 hours
+	
+1.b	If the user enters the command "type filename" after the file has
+	been deleted, nothing should be printed out. Opening up floppya.img
+	with hexedit before and after calling delete should show Map entries
+	changed to 0 and file marked as deleted in the Directory.
+	
+	Estimated Time: goes with above
+	
+2.	The user is able to enter the command "copy filename1 filename2" to
+	create a file with name filename2 that contains all the bytes of
+	filename1.
+	
+	Estimated Time: 2 hours
+	
+2.b	If the user copies the shell to another file and tries to execute
+	the duplicate shell, the shell prompt should appear.
+	
+	Estimated Time: goes with above
+	
+3.	The user can enter the command "dir" in the shell to print out the
+	files in the directory; only non-deleted entries should be listed.
+	We may also print out the sizes of the files in sectors.
+	
+	Estimated Time: 1 hour
+	
+4.	The user can enter the shell command "create filename" to create a
+	new text file. The user will be repeateadly promted for a line of
+	text until an empty line is entered. Each line is put into a buffer
+	and then written to the file. The file can be printed using "type
+	filename" command.
+	
+	Estimated Time: 2 hours

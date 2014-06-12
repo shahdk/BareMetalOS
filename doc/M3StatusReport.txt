@@ -1,0 +1,45 @@
+Team 26 - Rain Dartt, Dharmin Shah, and Rob Wagner
+
+Milestone 3 Status Report
+User Stories Completed:
+
+1. User will be able to load a file into a buffer using a file name.
+	The function will be run as such, ./loadFile file.txt
+
+	Actual Development Time: 1 hour
+	Estimated Time: 1 hour
+
+2. User will be able to load a program into memory and then execute it.
+	The user will first use readFile to load the file into a buffer.
+	the file will be transfered from the buffer to the bottom of memory
+	at the segment provided. The system will then take that segment number
+	and launch the program. 
+
+	Actual Development Time: 4 hours!!
+	Estimated Time: 2 hours
+
+3. The user will be able to terminate a program system call.
+
+	Actual Development Time: 30 minutes
+	Estimated Time: 30 minutes
+
+4. The user will be able to interact with the operating system using a shell.
+	The user will be able to type a line into a shell, and the OS will 
+	attempt to interpret it into a command.
+
+	Actual Development Time: 30 minutes!
+	Estimated Time: 3 hours
+
+5. Users will be able to use the "type" command to load a file into a memory
+	and print out its contents.
+
+	Actual Development Time: 30 minutes!
+	Estimated Time: 1 hour
+
+6. Users will be able to use the "execute" command to load a file and successfully
+	execute it as a program.
+
+	Actual Development Time: 30 minutes!
+	Estimated Time: 1 hour
+
+The team was able to complete all expected user stories for Milestone 3.

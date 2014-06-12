@@ -1,0 +1,36 @@
+Team 26 - Rain Dartt, Dharmin Shah, and Rob Wagner
+
+Milestone 2 User Stories:
+
+1. Use interrupt 0x10 to print a string input from AL register to the
+	screen. Test case will be the hidden function call
+	printString("Hello World\0").
+
+	Estimated Development Time: 1 hour
+	
+2. Write function readString that will reapeatedly call interrupt 0x16
+	to print ASCII code for keyboard input until ENTER key is pressed.
+	All characters typed should be printed to the screen. The BACKSPACE
+	key is printed but not stored in readString array (decrement index
+	instead). When run in Bochs, user should be promted to enter a line
+	that is echoed on the next line when user presses ENTER.
+	
+	Estimated Development Time: 1 hour
+	
+3. Write function readSector that uses interrupt 0x13 to read a sector
+	into buffer. This requires mod and div functions. Testing requires
+	reading a sector containing ASCII and printing it using printString.
+	
+	Estimated Development Time: 45 minutes
+	
+4. Write function handleInterrupt21 that uses interrupt 0x21 to print
+	a message to the screen. Test if output is actually printed.
+	
+	Estimated Development Time: 45 minutes.
+	
+5.	Redefine handInterrupt21 to be able to call printString, readString,
+	and readSector. The program should wait for user to read in a line
+	then echo it back on the next line.
+	
+	Estimated Development Time: 1.5 hours
+

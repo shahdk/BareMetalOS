@@ -1,0 +1,5 @@
+------------------------------------------------------------------------
+1. clear                | 4. delete <fileName>  | 7. help              | 
+2. copy <file1> <file2> | 5. dir or ls          | 8. type <fileName>   |
+3. create <fileName>    | 6. execute <fileName> | 9. chclr <colorCode> |
+------------------------------------------------------------------------

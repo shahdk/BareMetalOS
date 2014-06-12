@@ -1,0 +1,21 @@
+Team 26 - Rain Dartt, Dharmin Shah, and Rob Wagner
+
+Milestone 1 Status Report
+User Stories Completed:
+
+0. Install and set up required utilities for simulating the Operating
+	System designed by the team.
+	
+	Estimated Development Time: 30 minutes
+	Actual Development Time: 30 minutes
+
+1. Write and test a small kernel that will print out "Hello World" to
+	the screen and hang up; create a script that compiles and assembles
+	source code to machine code, copies the machine code to floppy
+	image, and runs it on Bochs.
+	
+	Estimated Development Time: 2 hours
+	Actual Development Time: 2 hours
+
+
+The team was able to complete all proposed user stories for Milestone 1.

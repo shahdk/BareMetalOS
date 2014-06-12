@@ -1,0 +1,21 @@
+Team 26 - Rain Dartt, Dharmin Shah, and Rob Wagner
+
+Milestone 5 User Stories:
+
+1.	The user can run "phello" to print out "Hello World" ten thousand
+	times; while this is running, the user can still run other commands
+	such as "dir."
+	
+	Estimated Time: 3 hours
+	
+	
+2.	The user can type "kill 3" to kill the third process that is
+	running. The number can be changed to kill any running process.
+	
+	Estimated Time: 1 hour
+	
+	
+3.	Extra: The user can run the command "execforeground filename" that
+	cuases the shell to block until the program "filename" terminates.
+	
+	Estimated Time: 1 hour
